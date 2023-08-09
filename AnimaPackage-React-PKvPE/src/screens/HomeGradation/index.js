@@ -1,1 +1,0 @@
-export { HomeGradation } from "./HomeGradation";
