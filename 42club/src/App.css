@@ -1,0 +1,49 @@
+.App {
+	display: flex;
+	position: relative;
+	align-items: center;
+	overflow: scroll;
+	scrollbar-color: red orange;
+	scrollbar-width: thin;
+	width: 95%;
+	height: 95%;
+	border-radius: 39px;
+	background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%),
+		rgba(255, 255, 255, 0.8);
+	overflow: scroll;
+}
+
+.MyNav {
+	left: 20px;
+	width: 90px;
+	height: 95%;
+	position: relative;
+	border-radius: 28px;
+	background: white;
+}
+
+.Main {
+	display: block;
+	right: 20px;
+	position: relative;
+	border: 1px solid gray;
+	position: relative;
+	width: 90%;
+	margin-left: 60px;
+	height: 95%;
+}
+
+.MySearch {
+	display: inline-block;
+	width: 100%;
+	background-color: gray;
+}
+
+.MyBanner {
+	height: 450px;
+	background-color: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+}
